@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Art Map of India</title>
+
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #fdfcfb;
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 2.2rem;
+      margin: 15px 0 5px 0;
+      color: #4a148c;
+      font-weight: 700;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+      letter-spacing: 1px;
+    }
+
+    .subtitle {
+      font-size: 1rem;
+      color: #444;
+      margin-bottom: 15px;
+      font-style: italic;
+    }
+
+    #map {
+      height: 90vh;
+      width: 95%;
+      margin: 0 auto 15px auto;
+      border: 3px solid #4a148c;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+  <h2>🖼️ ChronoCanvas: Interactive Art Map of India 🗺️</h2>
+  <div class="subtitle">
+    Made by: <b>N. Shreyaa (RA2311003010309)</b>, 
+    <b>Rushil Mitra (RA2311003010307)</b>, 
+    and <b>Ashita (RA23110030323)</b>
+  </div>
+
+  <!-- Map Container -->
+  <div id="map"></div>
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>
